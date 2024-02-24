@@ -12,6 +12,7 @@ header, footer {
 }
 h1{
     align-content: center;
+    text-align: center;
 }
 nav {
     background-color: #333;
