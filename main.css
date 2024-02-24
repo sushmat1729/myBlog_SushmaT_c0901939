@@ -63,3 +63,19 @@ img {
 h1{
     text-align: center;
 }
+/*Responsive Styling*/
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .right {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
